@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.0db1d67f.css",
+    "main.js": "/shopping-cart/static/js/main.8577d730.js",
+    "static/media/new-laser.png": "/shopping-cart/static/media/new-laser.73a6ede371d6554fab00.png",
+    "static/media/accessories.png": "/shopping-cart/static/media/accessories.09a22810852f9a151b11.png",
+    "static/media/upper-mast.png": "/shopping-cart/static/media/upper-mast.5507a2667de8f7050aa3.png",
+    "static/media/stop-set-daggerboard.png": "/shopping-cart/static/media/stop-set-daggerboard.0efe923cade897bcb46a.png",
+    "static/media/laser-sail.png": "/shopping-cart/static/media/laser-sail.180b4aa62cea2ad02de7.png",
+    "static/media/cover.png": "/shopping-cart/static/media/cover.3039ee4e282e5ffb2ece.png",
+    "static/media/wind-indicator.png": "/shopping-cart/static/media/wind-indicator.49fc42c7ef8135d8730c.png",
+    "static/media/strap.png": "/shopping-cart/static/media/strap.ad4991dd2c32a0db670c.png",
+    "static/media/battens.png": "/shopping-cart/static/media/battens.66291e7db914c2b02fee.png",
+    "index.html": "/shopping-cart/index.html",
+    "main.0db1d67f.css.map": "/shopping-cart/static/css/main.0db1d67f.css.map",
+    "main.8577d730.js.map": "/shopping-cart/static/js/main.8577d730.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0db1d67f.css",
+    "static/js/main.8577d730.js"
+  ]
+}
