@@ -1,0 +1,326 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: black;
+}
+
+.logo {
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 60px;
+  margin-right: 50px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  transform: scale(1.05);
+  transition-duration: 0.2s;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px;
+}
+
+.home-content {
+  display: flex;
+  gap: 40px;
+}
+
+.home-content-left {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.best {
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
+}
+
+.let-us {
+  font-size: 85px;
+  font-weight: bold;
+}
+
+.home-content-right {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-ship {
+  font-size: 180px;
+}
+
+.fa-anchor {
+  font-size: 180px;
+}
+
+.store-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  margin: 60px 100px 100px 100px;
+  min-width: 85%;
+}
+
+.store-header {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.sort-by {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.sort-by-text {
+  font-size: 12px;
+}
+
+.dropdown-content {
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  width: 118px;
+}
+
+.dropbtn {
+  width: 118px;
+}
+
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+}
+
+.store-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.shop-item {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shop-item img {
+  width: 200px;
+  height: 200px;
+}
+
+.add-to-cart {
+  background-color: black;
+  color: white;
+  border: 0;
+  padding: 10px 20px;
+  border: 1px solid white;
+}
+
+.add-to-cart:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cart-number {
+  float: right;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  margin: 60px 100px 100px 100px;
+  min-width: 85%;
+}
+
+.cart-header {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.quantity-col {
+  display: flex;
+  gap: 15px;
+}
+
+.quantity-col button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.quantity-col button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.checkout {
+  width: 140px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 15px;
+}
+
+.checkout:hover {
+  transform: scale(1.1);
+  transition-duration: 0.4;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  margin-top: 40px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 25px;
+}
+
+.shipping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid black;
+  padding: 25px;
+}
+
+.payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid black;
+  padding: 25px;
+}
+
+.PaymentForm {
+  display: flex;
+  gap: 10px;
+}
+
+.cc-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.confirmation {
+  width: 100px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 15px;
+}
+
+.confirmation:hover {
+  transform: scale(1.05);
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.confirmation-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center;
+  font-size: 25px;
+}
